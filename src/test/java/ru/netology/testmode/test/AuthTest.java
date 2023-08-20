@@ -15,6 +15,7 @@ import static ru.netology.testmode.data.DataGenerator.getRandomPassword;
 
 class AuthTest {
 
+
     @BeforeEach
     void setup() {
         open("http://localhost:9999");
